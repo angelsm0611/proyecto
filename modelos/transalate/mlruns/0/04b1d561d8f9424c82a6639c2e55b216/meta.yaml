@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/sanch/Documents/proyecto%20grado/modelos/transalate/mlruns/0/04b1d561d8f9424c82a6639c2e55b216/artifacts
+deleted_time: 1758630507346
+end_time: 1758627112732
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 04b1d561d8f9424c82a6639c2e55b216
+run_name: ./results/gpt2
+run_uuid: 04b1d561d8f9424c82a6639c2e55b216
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758626695858
+status: 3
+tags: []
+user_id: sanch

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/sanch/Documents/proyecto%20grado/modelos/transalate/mlruns/0/a69d6f707bcf444d93ce3972a217ed7c/artifacts
+end_time: 1758631513408
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a69d6f707bcf444d93ce3972a217ed7c
+run_name: ./results/EleutherAI_gpt-neo-125M
+run_uuid: a69d6f707bcf444d93ce3972a217ed7c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758631040635
+status: 3
+tags: []
+user_id: sanch

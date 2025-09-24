@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/sanch/Documents/proyecto%20grado/modelos/transalate/mlruns/0/bc952b22bc644c61902ab4ceb38a4182/artifacts
+deleted_time: 1758630507343
+end_time: 1758630327768
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: bc952b22bc644c61902ab4ceb38a4182
+run_name: ./results/EleutherAI_pythia-70m
+run_uuid: bc952b22bc644c61902ab4ceb38a4182
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758630154787
+status: 3
+tags: []
+user_id: sanch

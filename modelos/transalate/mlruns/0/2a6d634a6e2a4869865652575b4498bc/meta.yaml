@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/sanch/Documents/proyecto%20grado/modelos/transalate/mlruns/0/2a6d634a6e2a4869865652575b4498bc/artifacts
+end_time: 1758650964287
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a6d634a6e2a4869865652575b4498bc
+run_name: ./results/gpt2
+run_uuid: 2a6d634a6e2a4869865652575b4498bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758649918545
+status: 3
+tags: []
+user_id: sanch
