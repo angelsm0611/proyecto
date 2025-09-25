@@ -1,0 +1,10 @@
+setup.py
+tests/test.py
+texto_translate.egg-info/PKG-INFO
+texto_translate.egg-info/SOURCES.txt
+texto_translate.egg-info/dependency_links.txt
+texto_translate.egg-info/entry_points.txt
+texto_translate.egg-info/requires.txt
+texto_translate.egg-info/top_level.txt
+traductor/__init__.py
+traductor/predict.py

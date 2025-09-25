@@ -17,6 +17,7 @@ except ImportError as e:
     classify_predict = lambda x, **kwargs: (None, None, None)  # fallback clasificación
     simplify_predict = lambda x, y, **kwargs: (x, None)  # fallback traducción
 
+
 # Configuración de logging
 handler = RotatingFileHandler('debug.log', maxBytes=10*1024*1024, backupCount=5)
 logging.basicConfig(
@@ -54,8 +55,17 @@ app.add_middleware(
 )
 
 # Directorios de modelos (dentro del venv)
-models_dir_class = r"C:\Users\sanch\Documents\proyecto_grado\pagina\app\venv\Lib\site-packages\clasificador\models"
-models_dir_trad  = r"C:\Users\sanch\Documents\proyecto_grado\pagina\app\venv\Lib\site-packages\traductor\checkpoints"
+from clasificador import models  # 👈 tu paquete
+from traductor import checkpoints  # 👈 tu paquete
+try:
+    # Ruta al directorio de modelos dentro de clasificador
+    models_dir_class = pkg_resources.files(models)
+
+    # Ruta al directorio de checkpoints dentro de traductor
+    models_dir_trad = pkg_resources.files(checkpoints)
+except Exception as e:
+    import clasificador.train.main
+    import traductor.train.main
 
 logger.info(f"Classification models dir: {models_dir_class}")
 logger.info(f"Translation models dir: {models_dir_trad}")
@@ -256,7 +266,7 @@ if __name__ == "__main__":
     logger.info("Starting FastAPI application")
     try:
         import uvicorn
-        uvicorn.run(app, host="0.0.0.0", port=8000)
+        uvicorn.run(app, host="0.0.0.0", port=8001, log_level="debug")
     except Exception as e:
         logger.critical(f"Failed to start FastAPI application: {str(e)}", exc_info=True)
         raise

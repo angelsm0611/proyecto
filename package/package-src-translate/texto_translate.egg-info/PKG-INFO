@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: texto_translate
+Version: 0.1.0
+Summary: paquete para el uso de modelos de generalización de texto
+Author: Luis angel sanchez marin
+Author-email: la.sanchezm1@uniandes.edu.co
+Requires-Python: >=3.8
+Requires-Dist: torch>=1.9.0
+Requires-Dist: transformers>=4.30.0
+Requires-Dist: peft>=0.5.0
+Requires-Dist: datasets>=2.0.0
+Requires-Dist: accelerate>=0.26.0
+Requires-Dist: tf-keras>=2.15.0
+Requires-Dist: textstat>=0.7.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

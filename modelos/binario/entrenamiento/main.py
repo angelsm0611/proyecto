@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Cargar datos
-df = pd.read_csv("C:\\Users\\sanch\\Documents\\proyecto grado\\data\\dataset_binario.csv")
+df = pd.read_csv("C:\\Users\\sanch\\Documents\\proyecto_grado\\data\\dataset_binario.csv")
 
 print(f"Dataset shape: {df.shape}")
 print(f"Label distribution:\n{df['label'].value_counts()}")

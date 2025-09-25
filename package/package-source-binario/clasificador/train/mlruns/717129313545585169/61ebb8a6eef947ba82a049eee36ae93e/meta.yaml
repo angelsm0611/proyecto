@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sanch/Documents/proyecto_grado/package/package-source-binario/clasificador/train/mlruns/717129313545585169/61ebb8a6eef947ba82a049eee36ae93e/artifacts
+end_time: 1758768312612
+entry_point_name: ''
+experiment_id: '717129313545585169'
+lifecycle_stage: active
+run_id: 61ebb8a6eef947ba82a049eee36ae93e
+run_name: Contextual-BioBERT-20250924_214110
+run_uuid: 61ebb8a6eef947ba82a049eee36ae93e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758768071135
+status: 4
+tags: []
+user_id: sanch

@@ -1,0 +1,14 @@
+MANIFEST.in
+setup.py
+tests/test.py
+traductor/__init__.py
+traductor/predict.py
+traductor.egg-info/PKG-INFO
+traductor.egg-info/SOURCES.txt
+traductor.egg-info/dependency_links.txt
+traductor.egg-info/entry_points.txt
+traductor.egg-info/requires.txt
+traductor.egg-info/top_level.txt
+traductor/train/__init__.py
+traductor/train/main.py
+traductor/train/data/__init__.py

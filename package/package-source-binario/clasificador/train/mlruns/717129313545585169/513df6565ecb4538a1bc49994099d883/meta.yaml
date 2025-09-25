@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sanch/Documents/proyecto_grado/package/package-source-binario/clasificador/train/mlruns/717129313545585169/513df6565ecb4538a1bc49994099d883/artifacts
+end_time: 1758768042860
+entry_point_name: ''
+experiment_id: '717129313545585169'
+lifecycle_stage: active
+run_id: 513df6565ecb4538a1bc49994099d883
+run_name: Sparse - NaiveBayes
+run_uuid: 513df6565ecb4538a1bc49994099d883
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758768033687
+status: 3
+tags: []
+user_id: sanch
